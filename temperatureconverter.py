@@ -9,11 +9,11 @@ if choice == "1" :
     print("\n# Celsius to Fahrenheit")
     celsius = float(input("Degree to convert: "))
     fahrenheit = (celsius * 1.8) + 32
-    print("{} degree celsius is equal to {} degree Fahrenheit.".format(celsius,fahrenheit))
+    print(f"{celsius} degree celsius is equal to {fahrenheit} degree Fahrenheit.")
 elif choice == "2":
     print("\n# Fahrenheit to Celsius")
     fahrenheit = float(input("Degree to convert: "))
     celsius = (fahrenheit - 32) / 1.8
-    print("{} degree fahrenheit is equal to {} degree celsius.".format(fahrenheit,celsius))
+    print(f"{fahrenheit} degree fahrenheit is equal to {celsius} degree celsius.")
 else:
     print("Sorry!, You took a wrong action. ")
